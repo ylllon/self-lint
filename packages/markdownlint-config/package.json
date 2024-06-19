@@ -1,0 +1,23 @@
+{
+  "name": "markdownlint-config",
+  "version": "0.0.0",
+  "main": "index.json",
+  "keywords": [
+    "yllon",
+    "markdown",
+    "lint"
+  ],
+  "author": "yllon",
+  "homepage": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
+}

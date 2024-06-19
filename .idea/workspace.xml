@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.markdownlint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/data-block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/app-enhancers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/global-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/layout-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/page-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/root-mixins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/internal/siteData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/palette.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/style.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.temp/transform/ClientComputedMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/tx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/img/JavaScript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/img/style.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/img/typescript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/javascript.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/node.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coding/typescript.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/commitlint-config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/commitlint-config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/commitlint-config/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/markdownlint-config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/markdownlint-config/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/markdownlint-config/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2i3eoXIgkvkHhR7IjLk8qLEEUei" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/work/self-lint",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\work\\self-lint\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\self-lint" />
+      <recent name="D:\work\self-lint\packages" />
+      <recent name="D:\work\self-lint\docs" />
+      <recent name="D:\work\self-lint\docs\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\self-lint\docs\.vuepress\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="" />
+      <created>1718723862359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718723862359</updated>
+      <workItem from="1718723863411" duration="25552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

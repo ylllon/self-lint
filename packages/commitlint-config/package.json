@@ -1,0 +1,24 @@
+{
+  "name": "commitlint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "Git规范",
+  "keywords": [
+    "yllon",
+    "commit",
+    "lint"
+  ],
+  "author": "yllon",
+  "homepage": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}
