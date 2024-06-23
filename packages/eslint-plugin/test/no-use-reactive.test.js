@@ -14,13 +14,13 @@ ruleTester.run('no-http-reactive', rule, {
 
   invalid: [
     {
-      code: "var test = reactive({});",
-      output: "var test = reactive({});",
+      code: 'var test = reactive({});',
+      output: 'var test = reactive({});',
       errors: [
         {
           message: '禁止变量名、常量名、函数名、class名为 reactive、Reactive',
         },
       ],
-    }
+    },
   ],
 });
