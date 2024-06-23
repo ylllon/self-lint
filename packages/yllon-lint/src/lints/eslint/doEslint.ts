@@ -20,7 +20,7 @@ export async function doESLint(options: DoESLintOptions) {
         options.include,
         `**/*.{${ESLINT_FILE_EXT.map((t) => t.replace(/^\./, '')).join(',')}}`,
     );
-    files = await fg(pattern, {
+    files = await fg(`**/*.{${['.js', '.jsx', '.ts', '.tsx', '.vue'].map((t) => t.replace(/^\./, '')).join(',')}}`, {
       cwd: options.cwd,
       ignore: ESLINT_IGNORE_PATTERN,
     });

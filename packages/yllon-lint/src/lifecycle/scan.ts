@@ -4,6 +4,15 @@ import { doESLint, doMarkdownlint, doPrettier, doStylelint } from '../lints';
 import type { Config, PKG, ScanOptions, ScanReport, ScanResult } from '../types';
 import { PKG_NAME } from '../utils/constants';
 
+/**
+ * options: {
+ *             cwd,
+ *             fix: true,
+ *             include: cmd.include || cwd,
+ *             ignore: cmd.ignore, // 对应 --no-ignore
+ *         }
+ * @param options
+ */
 export default async (options: ScanOptions): Promise<ScanReport> => {
     const { cwd, fix, outputReport, config: scanConfig } = options;
 
