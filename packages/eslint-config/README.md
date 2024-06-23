@@ -1,6 +1,6 @@
-# `yllon-eslint-config`
+# `eslint-config-yllon`
 
-## JavaScript 项目 : yllon-eslint-config
+## JavaScript 项目 : eslint-config-yllon
 > TODO: 定制化eslint规范
 > 支持`JavaScript`、`TypeScript`、`Vue`、`Node.js`
 
@@ -14,26 +14,26 @@
 -
 
 ```shell
-npm i -D yllon-eslint-config @babel/core @babel/eslint-parser eslint-plugin-import
+npm i -D eslint-config-yllon @babel/core @babel/eslint-parser eslint-plugin-import
 ```
 
 ### 配置
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config"]
+  "extends": ["eslint-config-yllon"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config"]
+  "extends": ["./node_modules/eslint-config-yllon"]
 }
 ```
 
 
-## JavaScript + Vue 项目 : yllon-eslint-config/javascript/vue
+## JavaScript + Vue 项目 : eslint-config-yllon/javascript/vue
 
 针对 `JS Vue` 的项目，继承了默认配置，并启用了 [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue) 插件的规则，使用 [vue-eslint-parser](https://www.npmjs.com/package/vue-eslint-parser) 作为 parser。
 
@@ -48,24 +48,24 @@ npm i -D yllon-eslint-config @babel/core @babel/eslint-parser eslint-plugin-impo
 ### 安装
 
 ```shell
-npm i -D yllon-eslint-config @babel/core @babel/eslint-parser eslint-plugin-import vue-eslint-parser eslint-plugin-vue
+npm i -D eslint-config-yllon @babel/core @babel/eslint-parser eslint-plugin-import vue-eslint-parser eslint-plugin-vue
 ```
 
 ### 配置
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config/javascript/vue"]
+  "extends": ["eslint-config-yllon/javascript/vue"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config/javascript/vue"]
+  "extends": ["./node_modules/eslint-config-yllon/javascript/vue"]
 }
 ```
-## JavaScript (Node.js) 项目 : yllon-eslint-config/javascript/node
+## JavaScript (Node.js) 项目 : eslint-config-yllon/javascript/node
 
 针对 Node.js 项目，继承了默认配置和 [eslint-config-egg 的规则](https://github.com/eggjs/eslint-config-egg/blob/master/lib/rules/node.js)，规则由 ESLint 原生规则和 [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) 提供。
 
@@ -79,25 +79,25 @@ npm i -D yllon-eslint-config @babel/core @babel/eslint-parser eslint-plugin-impo
 ### 安装
 
 ```shell
-npm i -D yllon-eslint-config @babel/core @babel/eslint-parser eslint-plugin-import eslint-config-egg
+npm i -D eslint-config-yllon @babel/core @babel/eslint-parser eslint-plugin-import eslint-config-egg
 ```
 
 ### 配置
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config/javascript/node"]
+  "extends": ["eslint-config-yllon/javascript/node"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config/javascript/node"]
+  "extends": ["./node_modules/eslint-config-yllon/javascript/node"]
 }
 ```
 
-## TypeScript 项目 ： yllon-eslint-config/typescript
+## TypeScript 项目 ： eslint-config-yllon/typescript
 
 针对未使用 `Vue` 的 `TypeScript` 项目，继承了默认配置，并启用了 [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) 插件的规则，使用 [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser) 作为 parser。
 
@@ -111,21 +111,21 @@ npm i -D yllon-eslint-config @babel/core @babel/eslint-parser eslint-plugin-impo
 ### 安装
 
 ```shell
-npm i -D yllon-eslint-config @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-import-resolver-typescript
+npm i -D eslint-config-yllon @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-import-resolver-typescript
 ```
 
 ### 配置
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config/typescript"]
+  "extends": ["eslint-config-yllon/typescript"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config/typescript"]
+  "extends": ["./node_modules/eslint-config-yllon/typescript"]
 }
 ```
 
@@ -133,14 +133,14 @@ npm i -D yllon-eslint-config @typescript-eslint/parser @typescript-eslint/eslint
 
 ```json
 {
-  "extends": "yllon-eslint-config/typescript",
+  "extends": "eslint-config-yllon/typescript",
   "parserOptions": {
     "project": "./tsconfig.eslint.json"
   }
 }
 ```
 
-## TypeScript + Vue 项目 ： yllon-eslint-config/typescript/vue
+## TypeScript + Vue 项目 ： eslint-config-yllon/typescript/vue
 
 针对 `TS Vue` 项目，继承了 `JS Vue` 的配置，并启用了 [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) 插件的规则，使用 [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser) 作为 `parser`。
 
@@ -156,25 +156,25 @@ npm i -D yllon-eslint-config @typescript-eslint/parser @typescript-eslint/eslint
 ### 安装
 
 ```shell
-npm i -D yllon-eslint-config @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-import-resolver-typescript vue-eslint-parser eslint-plugin-vue
+npm i -D eslint-config-yllon @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-import-resolver-typescript vue-eslint-parser eslint-plugin-vue
 ```
 
 ### 配置
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config/typescript/vue"]
+  "extends": ["eslint-config-yllon/typescript/vue"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config/typescript/vue"]
+  "extends": ["./node_modules/eslint-config-yllon/typescript/vue"]
 }
 ```
 
-## TypeScript (Node.js) 项目 ： yllon-eslint-config/typescript/node
+## TypeScript (Node.js) 项目 ： eslint-config-yllon/typescript/node
 
 针对未使用  `Vue` 的 `TypeScript(Node)` 项目，继承了 `JS Node.js` 配置，并启用了 [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) 插件的规则，使用 [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser) 作为 parser。
 
@@ -189,21 +189,21 @@ npm i -D yllon-eslint-config @typescript-eslint/parser @typescript-eslint/eslint
 ### 安装
 
 ```
-npm i -D yllon-eslint-config @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-import-resolver-typescript eslint-config-egg
+npm i -D eslint-config-yllon @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-import-resolver-typescript eslint-config-egg
 ```
 
 ### 配置
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config/typescript/node"]
+  "extends": ["eslint-config-yllon/typescript/node"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config/typescript/node"]
+  "extends": ["./node_modules/eslint-config-yllon/typescript/node"]
 }
 ```
 
@@ -223,14 +223,14 @@ npm install --save-dev eslint-config-prettier eslint-plugin-prettier
 绝对路径：
 ```json
 {
-  "extends": ["yllon-eslint-config/typescript/vue", "prettier"]
+  "extends": ["eslint-config-yllon/typescript/vue", "prettier"]
 }
 ```
 如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-eslint-config/typescript/vue", "prettier"]
+  "extends": ["./node_modules/eslint-config-yllon/typescript/vue", "prettier"]
 }
 ```
 

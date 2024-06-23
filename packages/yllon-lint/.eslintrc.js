@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./node_modules/yllon-eslint-config/typescript/node','prettier'],
+  extends: ['./node_modules/eslint-config-yllon/typescript/node','prettier'],
   rules: {
     '@typescript-eslint/no-require-imports': 0,
     'no-console': 0,

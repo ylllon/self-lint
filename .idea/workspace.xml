@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="yllon-lint 1.0.3修复">
+    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="yllon-lint 1.0.3修复-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/commitlint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/commitlint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/commitlint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/commitlint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/__tests__/js-config.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/js-config.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/configs/recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/recommended.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/markdownlint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/markdownlint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/markdownlint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/markdownlint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stylelint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stylelint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stylelint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stylelint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/yllon-lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/config/_eslintrc.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_eslintrc.js.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/config/_markdownlint.json.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_markdownlint.json.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/config/_stylelintrc.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_stylelintrc.js.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/config/commitlint.config.js.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/commitlint.config.js.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/getESLintConfigType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/getESLintConfigType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/lints/markdownlint/getMarkdownlintConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/markdownlint/getMarkdownlintConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/test/function.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/test/function.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +148,7 @@
       <workItem from="1718961079534" duration="17043000" />
       <workItem from="1718983428376" duration="22764000" />
       <workItem from="1719068167556" duration="16755000" />
-      <workItem from="1719135043011" duration="14783000" />
+      <workItem from="1719135043011" duration="19912000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <option name="closed" value="true" />
@@ -202,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719150917878</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="yllon-lint 1.0.3修复-">
+      <option name="closed" value="true" />
+      <created>1719151151103</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719151151103</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +245,7 @@
     <MESSAGE value="eslint  cli修复" />
     <MESSAGE value="yllon-lint 1.0.3" />
     <MESSAGE value="yllon-lint 1.0.3修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="yllon-lint 1.0.3修复" />
+    <MESSAGE value="yllon-lint 1.0.3修复-" />
+    <option name="LAST_COMMIT_MESSAGE" value="yllon-lint 1.0.3修复-" />
   </component>
 </project>

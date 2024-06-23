@@ -85,10 +85,10 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
-    "yllon-commitlint-config": "^1.0.1",
-    "yllon-eslint-config": "^1.0.1",
-    "yllon-markdownlint-config": "^1.0.1",
-    "yllon-stylelint-config": "^1.0.1"
+    "commitlint-config-yllon": "^1.0.1",
+    "eslint-config-yllon": "^1.0.1",
+    "markdownlint-config-yllon": "^1.0.1",
+    "stylelint-config-yllon": "^1.0.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -100,5 +100,5 @@
   "bugs": {
     "url": "https://github.com/ylllon/self-lint/issues"
   },
-  "gitHead": "d83b8d7ddc4804f688b75dfcd9c1319204cd2d91"
+  "gitHead": "7585716dd03541484cffc075443414f896b1314f"
 }

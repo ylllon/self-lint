@@ -1,11 +1,11 @@
-# yllon-eslint-plugin
+# eslint-plugin-yllon
 
 ## 安装
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install yllon-eslint-plugin eslint --save-dev
+$ npm install eslint-plugin-yllon eslint --save-dev
 ```
 
 ## 使用
@@ -15,9 +15,9 @@ $ npm install yllon-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.cjs
 module.exports = {
-  plugin: ['yllon-eslint-config'],
+  plugin: ['eslint-config-yllon'],
   rules: {
-    'yllon-eslint-plugin/no-http-url': 'warn',
+    'eslint-plugin-yllon/no-http-url': 'warn',
   },
 };
 ```
@@ -27,7 +27,7 @@ module.exports = {
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: 'plugin:yllon-eslint-plugin/commands',
+  extends: 'plugin:eslint-plugin-yllon/commands',
 };
 ```
 

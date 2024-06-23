@@ -8,7 +8,7 @@ var fs = require('fs');
 describe('test/function.test.js', () => {
     it('Validate default', async () => {
 
-        console.log("fg:",fg)
+        // console.log("fg:",fg)
         const cwd = process.cwd();
         console.log("cwd:",cwd)
         // const cmd = process.chdir()
@@ -21,6 +21,7 @@ describe('test/function.test.js', () => {
             cwd: cwd,
             ignore: ['node_modules/**'],
         })
+        console.log("files:", files)
         expect('some data').toEqual('some data');
         // const eslint = new ESLint(getESLintConfig(options, options.pkg, options.config));
         // const reports = await eslint.lintFiles(files);

@@ -1,6 +1,6 @@
 {
-  "name": "yllon-markdownlint-config",
-  "version": "1.0.1",
+  "name": "markdownlint-config-yllon",
+  "version": "1.0.0",
   "main": "index.json",
   "keywords": [
     "yllon"

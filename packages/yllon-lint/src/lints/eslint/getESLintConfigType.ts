@@ -5,8 +5,8 @@ import type { PKG } from '../../types';
  * 获取 ESLint 配置类型
  * @param cwd
  * @param pkg
- * @returns yllon-eslint-config/index
- * @returns yllon-eslint-config/typescript/index
+ * @returns eslint-config-yllon/index
+ * @returns eslint-config-yllon/typescript/index
  */
 export function getESLintConfigType(cwd: string, pkg: PKG): string {
   const tsFiles = glob.sync('./!(node_modules)/**/*.@(ts|tsx)', { cwd });
@@ -26,6 +26,6 @@ export function getESLintConfigType(cwd: string, pkg: PKG): string {
   }
 
   return (
-    `yllon-eslint-config/${  `${language}/${dsl}`.replace(/\/$/, '/index').replace(/^\//, '')}`
+    `eslint-config-yllon/${  `${language}/${dsl}`.replace(/\/$/, '/index').replace(/^\//, '')}`
   );
 }

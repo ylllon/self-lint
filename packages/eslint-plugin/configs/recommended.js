@@ -1,6 +1,6 @@
 module.exports = {
-  plugins: ['yllon-eslint-plugin'],
+  plugins: ['eslint-plugin-yllon'],
   rules: {
-    'yllon-eslint-plugin/no-http-url': 'warn'
+    'eslint-plugin-yllon/no-http-url': 'warn',
   },
 };

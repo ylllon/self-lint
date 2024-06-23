@@ -1,13 +1,13 @@
 {
-  "name": "yllon-eslint-plugin",
-  "version": "1.0.1",
+  "name": "eslint-plugin-yllon",
+  "version": "1.0.0",
   "description": "yllon自定义eslint插件",
   "author": "yanglun",
   "homepage": "https://github.com/ylllon/self-lint#readme",
   "license": "ISC",
   "main": "index.js",
   "keywords": [
-    "yllon-eslint-plugin"
+    "eslint-plugin-yllon"
   ],
   "scripts": {
     "test": "jest",

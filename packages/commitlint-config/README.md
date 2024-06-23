@@ -1,4 +1,4 @@
-# `yllon-commitlint-config`
+# `commitlint-config-yllon`
 
 > Git 规范
 
@@ -9,7 +9,7 @@
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install yllon-commitlint-config @commitlint/cli --save-dev
+npm install commitlint-config-yllon @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -18,7 +18,7 @@ npm install yllon-commitlint-config @commitlint/cli --save-dev
 绝对路径：
 ```javascript
 module.exports = {
-	extends: ['yllon-commitlint-config'],
+	extends: ['commitlint-config-yllon'],
 };
 ```
 
@@ -26,7 +26,7 @@ module.exports = {
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-commitlint-config"]
+  "extends": ["./node_modules/commitlint-config-yllon"]
 }
 ```
 

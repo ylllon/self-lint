@@ -1,5 +1,5 @@
 {
-  "name": "yllon-commitlint-config",
+  "name": "commitlint-config-yllon",
   "version": "1.0.1",
   "main": "index.js",
   "description": "Git规范",

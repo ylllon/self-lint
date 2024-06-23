@@ -1,3 +1,3 @@
-module.exports = { extends: [ '<%= eslintType === 'index' ? './node_modules/yllon-eslint-config' :
-`./node_modules/yllon-eslint-config/${eslintType}` %>', <%_ if (enablePrettier) { _%> 'prettier', <%_ } _%> ],
+module.exports = { extends: [ '<%= eslintType === 'index' ? './node_modules/eslint-config-yllon' :
+`./node_modules/eslint-config-yllon/${eslintType}` %>', <%_ if (enablePrettier) { _%> 'prettier', <%_ } _%> ],
 };

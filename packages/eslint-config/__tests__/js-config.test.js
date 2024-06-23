@@ -4,7 +4,7 @@ const path = require('path');
 const sumBy = require('lodash/sumBy');
 
 describe('Validate JS config', () => {
-  it('Validate yllon-eslint-config', async () => {
+  it('Validate eslint-config-yllon', async () => {
     const configPath = './index.js';
     const filePath = path.join(__dirname, './testExamples/index.js');
     const cli = new eslint.ESLint({
@@ -26,7 +26,7 @@ describe('Validate JS config', () => {
     assert.notEqual(sumBy(results, 'warningCount'), 0);
   });
 
-  it('Validate yllon-eslint-config/javascript/vue', async () => {
+  it('Validate eslint-config-yllon/javascript/vue', async () => {
     const configPath = './javascript/vue.js';
     const filePath = path.join(__dirname, './testExamples/vue.vue');
 
