@@ -1,6 +1,6 @@
 {
   "name": "yllon-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "yllon-lint脚手架",
   "author": "yanglun <1254547493@qq.com>",
   "homepage": "https://github.com/ylllon/self-lint#readme",
@@ -83,10 +83,10 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
-    "yllon-commitlint-config": "^1.0.0",
-    "yllon-eslint-config": "^1.0.0",
-    "yllon-markdownlint-config": "^1.0.0",
-    "yllon-stylelint-config": "^1.0.0"
+    "yllon-commitlint-config": "^1.0.1",
+    "yllon-eslint-config": "^1.0.1",
+    "yllon-markdownlint-config": "^1.0.1",
+    "yllon-stylelint-config": "^1.0.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
