@@ -8,61 +8,33 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "CSS 编码规范",
+      "title": "Home",
       "frontmatter": {
-        "title": "CSS 编码规范",
-        "categories": [
-          "编码规范"
-        ],
-        "tags": [
-          "编码规范"
-        ],
-        "author": {
-          "name": null,
-          "link": null
-        }
+        "home": "true,",
+        "heroImage": "/tx.jpg",
+        "heroText": "yllon",
+        "tagline": "前端编码规范工程化",
+        "actionText": "立刻进入 →",
+        "actionLink": "/coding/html.md",
+        "features": [
+          {
+            "title": "团队编码规范1113",
+            "details": "支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级"
+          },
+          {
+            "title": "支持 Typescript",
+            "details": "提供完整的类型注释，帮助您从 0~1 掌握完整的前端规范化"
+          },
+          {
+            "title": "完整的测试用例",
+            "details": "配套完整的测试用例，帮助您提升项目健壮性"
+          }
+        ]
       },
-      "regularPath": "/coding/css.html",
-      "relativePath": "coding/css.md",
-      "key": "v-69d23cd2",
-      "path": "/coding/css.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. CSS",
-          "slug": "_1-css"
-        },
-        {
-          "level": 3,
-          "title": "1.1. 编码风格",
-          "slug": "_1-1-编码风格"
-        },
-        {
-          "level": 3,
-          "title": "1.2. 选择器",
-          "slug": "_1-2-选择器"
-        },
-        {
-          "level": 3,
-          "title": "1.3. 属性和属性值",
-          "slug": "_1-3-属性和属性值"
-        },
-        {
-          "level": 3,
-          "title": "1.4. 其他",
-          "slug": "_1-4-其他"
-        },
-        {
-          "level": 2,
-          "title": "2. Sass 和 Less",
-          "slug": "_2-sass-和-less"
-        },
-        {
-          "level": 2,
-          "title": "参考资料",
-          "slug": "参考资料"
-        }
-      ]
+      "regularPath": "/",
+      "relativePath": "index.md",
+      "key": "v-2ef81724",
+      "path": "/"
     },
     {
       "title": "HTML 编码规范",
@@ -162,6 +134,33 @@ export const siteData = {
       ]
     },
     {
+      "title": "TypeScript 编码规范",
+      "frontmatter": {
+        "title": "TypeScript 编码规范",
+        "categories": [
+          "编码规范"
+        ],
+        "tags": [
+          "编码规范"
+        ],
+        "author": {
+          "name": null,
+          "link": null
+        }
+      },
+      "regularPath": "/coding/typescript.html",
+      "relativePath": "coding/typescript.md",
+      "key": "v-aaabfe3c",
+      "path": "/coding/typescript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "编码风格",
+          "slug": "编码风格"
+        }
+      ]
+    },
+    {
       "title": "Node 编码规范",
       "frontmatter": {
         "title": "Node 编码规范",
@@ -195,6 +194,63 @@ export const siteData = {
           "level": 2,
           "title": "3. 最佳实践",
           "slug": "_3-最佳实践"
+        },
+        {
+          "level": 2,
+          "title": "参考资料",
+          "slug": "参考资料"
+        }
+      ]
+    },
+    {
+      "title": "CSS 编码规范",
+      "frontmatter": {
+        "title": "CSS 编码规范",
+        "categories": [
+          "编码规范"
+        ],
+        "tags": [
+          "编码规范"
+        ],
+        "author": {
+          "name": null,
+          "link": null
+        }
+      },
+      "regularPath": "/coding/css.html",
+      "relativePath": "coding/css.md",
+      "key": "v-69d23cd2",
+      "path": "/coding/css.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. CSS",
+          "slug": "_1-css"
+        },
+        {
+          "level": 3,
+          "title": "1.1. 编码风格",
+          "slug": "_1-1-编码风格"
+        },
+        {
+          "level": 3,
+          "title": "1.2. 选择器",
+          "slug": "_1-2-选择器"
+        },
+        {
+          "level": 3,
+          "title": "1.3. 属性和属性值",
+          "slug": "_1-3-属性和属性值"
+        },
+        {
+          "level": 3,
+          "title": "1.4. 其他",
+          "slug": "_1-4-其他"
+        },
+        {
+          "level": 2,
+          "title": "2. Sass 和 Less",
+          "slug": "_2-sass-和-less"
         },
         {
           "level": 2,
@@ -331,62 +387,6 @@ export const siteData = {
           "slug": "参考资料"
         }
       ]
-    },
-    {
-      "title": "TypeScript 编码规范",
-      "frontmatter": {
-        "title": "TypeScript 编码规范",
-        "categories": [
-          "编码规范"
-        ],
-        "tags": [
-          "编码规范"
-        ],
-        "author": {
-          "name": null,
-          "link": null
-        }
-      },
-      "regularPath": "/coding/typescript.html",
-      "relativePath": "coding/typescript.md",
-      "key": "v-aaabfe3c",
-      "path": "/coding/typescript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "编码风格",
-          "slug": "编码风格"
-        }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": "true,",
-        "heroImage": "/tx.jpg",
-        "heroText": "yllon",
-        "tagline": "前端编码规范工程化",
-        "actionText": "立刻进入 →",
-        "actionLink": "/coding/html.md",
-        "features": [
-          {
-            "title": "团队编码规范1113",
-            "details": "支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级"
-          },
-          {
-            "title": "支持 Typescript",
-            "details": "提供完整的类型注释，帮助您从 0~1 掌握完整的前端规范化"
-          },
-          {
-            "title": "完整的测试用例",
-            "details": "配套完整的测试用例，帮助您提升项目健壮性"
-          }
-        ]
-      },
-      "regularPath": "/",
-      "relativePath": "index.md",
-      "key": "v-2ef81724",
-      "path": "/"
     }
   ],
   "themeConfig": {
@@ -399,10 +399,6 @@ export const siteData = {
       {
         "text": "编码规范",
         "items": [
-          {
-            "text": "HTML 编码规范",
-            "link": "/coding/html.md"
-          },
           {
             "text": "CSS 编码规范",
             "link": "/coding/css.md"
@@ -443,10 +439,6 @@ export const siteData = {
       {
         "title": "编码规范",
         "children": [
-          {
-            "title": "HTML 编码规范",
-            "path": "/coding/html.md"
-          },
           {
             "title": "CSS 编码规范",
             "path": "/coding/css.md"

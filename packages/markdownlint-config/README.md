@@ -9,15 +9,23 @@
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install markdownlint-config markdownlint --save-dev
+npm install yllon-markdownlint-config markdownlint --save-dev
 ```
 
 ## 使用
 
-在 `.markdownlint.json` 中继承本包:
-
+在 `.markdownlint.json` 中继承本包:<br/>
+绝对路径:
 ```json
 {
-	"extends": "markdownlint-config"
+	"extends": "yllon-markdownlint-config"
+}
+```
+
+如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
+相对路径：
+```json
+{
+  "extends": ["./node_modules/yllon-markdownlint-config"]
 }
 ```

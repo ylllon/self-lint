@@ -1,2 +1,2 @@
-import "D:\\work\\self-lint\\node_modules\\.pnpm\\@vuepress+core@1.9.10_@vue+compiler-sfc@3.4.29_ejs@3.1.10_handlebars@4.7.8_hogan.js@3.0.2_lodash@4.17.21\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+import "D:\\work\\self-lint\\node_modules\\.pnpm\\@vuepress+core@1.9.10\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.javascript"
 export default {}

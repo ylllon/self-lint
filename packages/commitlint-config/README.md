@@ -1,4 +1,4 @@
-# `commitlint-config`
+# `yllon-commitlint-config`
 
 > Git 规范
 
@@ -9,17 +9,25 @@
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install commitlint-config @commitlint/cli --save-dev
+npm install yllon-commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用
 
-在 `commitlint.config.js` 中集成本包:
-
+在 `commitlint.config.js` 中集成本包:<br/>
+绝对路径：
 ```javascript
 module.exports = {
-	extends: ['commitlint-config'],
+	extends: ['yllon-commitlint-config'],
 };
+```
+
+如果编译器不支持绝对路径导入报错，可更换成相对路径导入。<br/>
+相对路径：
+```json
+{
+  "extends": ["./node_modules/yllon-commitlint-config"]
+}
 ```
 
 ## 设置 git hook

@@ -131,27 +131,27 @@ author:
   TS 提供了一些指令注释，可用于忽略 `TypeScript` 编译器在编译阶段的错误，如下：
 
   ```typescript
-  // @ts-expect-error
-  // @ts-ignore
-  // @ts-nocheck
-  // @ts-check
+  // @typescript-expect-error
+  // @typescript-ignore
+  // @typescript-nocheck
+  // @typescript-check
   ```
 
   我们允许在代码中使用指令注释，但需要跟随一定长度的描述说明。
 
   ```typescript
   // bad
-  // @ts-expect-error
+  // @typescript-expect-error
   console.log('my code');
   
-  // @ts-ignore
+  // @typescript-ignore
   console.log('my code');
   
   // good
-  // @ts-expect-error: Unreachable code here
+  // @typescript-expect-error: Unreachable code here
   console.log('my code');
   
-  // @ts-ignore: It's ok to ignore this compile error
+  // @typescript-ignore: It's ok to ignore this compile error
   console.log('my code');
   ```
 

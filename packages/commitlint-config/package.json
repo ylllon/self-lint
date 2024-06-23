@@ -1,12 +1,10 @@
 {
-  "name": "commitlint-config",
+  "name": "yllon-commitlint-config",
   "version": "0.0.0",
   "main": "index.js",
   "description": "Git规范",
   "keywords": [
-    "yllon",
-    "commit",
-    "lint"
+    "yllon"
   ],
   "author": "yllon",
   "homepage": "",

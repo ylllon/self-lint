@@ -4,51 +4,162 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.markdownlint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/data-block.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/app-enhancers/global-components-8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/app-enhancers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/global-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/layout-components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/page-components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/root-mixins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/internal/siteData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/palette.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/style.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.temp/transform/ClientComputedMixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/tx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/img/JavaScript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/img/style.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/img/typescript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/javascript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/node.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/coding/typescript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/commitlint-config/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/commitlint-config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/commitlint-config/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/markdownlint-config/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/markdownlint-config/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/markdownlint-config/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="项目初始化">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.markdownlintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/engineering/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/engineering/doc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/engineering/git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/react-display-name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/react.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/ts-import-a.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/ts-import-b.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/ts-node.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/ts-react.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/ts-vue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/ts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/use-babel-eslint.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/fixtures/vue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/__tests__/js-config.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/rules/blacklist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/rules/es6-blacklist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/rules/set-style-to-warn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/rules/ts-blacklist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/typescript/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/typescript/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/essential/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/javascript/es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/javascript/jsx-a11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/javascript/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/javascript/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/base/best-practices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/base/es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/base/possible-errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/base/strict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/base/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/base/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/imports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/jsx-a11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/typescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/rules/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/typescript/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/typescript/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config/typescript/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/__tests__/no-http-url.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/__tests__/no-use-reactive.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/__tests__/ts-interface-uppercase.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/recommended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/no-use-rules/no-use-reactive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/rules/no-http-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/rules/ts-interface-uppercase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/__tests__/examples/css-module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/__tests__/examples/essential.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/__tests__/examples/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/__tests__/examples/less-test.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/__tests__/examples/sass-test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/__tests__/rules-validate.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/stylelint-config/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/cli.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_editorconfig.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_eslintignore.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_eslintrc.js.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_markdownlint.json.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_markdownlintignore.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_prettierrc.js.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_stylelintignore.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_stylelintrc.js.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_vscode/extensions.json.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/_vscode/settings.json.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/commitlint.config.js.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/config/yllon-lint.config.js.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/init.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/scan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/update.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/doEslint.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/formatESLintResults.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/getESLintConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/getESLintConfigType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/markdownlint/doMarkdownlint.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/markdownlint/formatMarkdownlintResults.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/markdownlint/getMarkdownlintConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/markdownlint/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/prettier/doPrettier.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/prettier/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/stylelint/doStylelint.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/stylelint/formatStylelintResults.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/stylelint/getStylelintConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/stylelint/getStylelintDocUrl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/stylelint/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/conflict-resolve.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/generate-template.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/git.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/log.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/npm-type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/print-report.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/cli.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/testExamples/examples/semiErrored.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/testExamples/examples/semiExpected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/testExamples/template/init/_vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/testExamples/template/init/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.markdownlint.json" beforeDir="false" afterPath="$PROJECT_DIR$/.markdownlint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/app-enhancers/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/app-enhancers/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/global-components-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/global-components-3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/global-components-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/global-components-5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/global-components-6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/app-enhancers/global-components-8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/internal/app-enhancers.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/internal/app-enhancers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/internal/page-components.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/internal/page-components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/internal/root-mixins.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/internal/root-mixins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/internal/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/internal/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/internal/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/internal/siteData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/coding/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/coding/javascript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/coding/typescript.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/coding/typescript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/commitlint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/commitlint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/commitlint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/commitlint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/markdownlint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/markdownlint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/markdownlint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/markdownlint-config/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,39 +172,74 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2i3eoXIgkvkHhR7IjLk8qLEEUei" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Jest.'fix' command.executor": "Run",
+    "Node.js.ts-interface-uppercase.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/work/self-lint",
+    "javascript.nodejs.core.library.configured.version": "18.17.0",
+    "javascript.nodejs.core.library.typings.version": "18.17.19",
+    "last_opened_file_path": "D:/work/self-lint/packages/yllon-lint/__tests__",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/work/self-lint/packages/yllon-lint/node_modules/jest",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
     "ts.external.directory.path": "D:\\work\\self-lint\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\self-lint\packages\yllon-lint\__tests__" />
+      <recent name="D:\work\self-lint\packages\yllon-lint\src" />
+      <recent name="D:\work\self-lint\packages\yllon-lint\src\utils" />
       <recent name="D:\work\self-lint" />
-      <recent name="D:\work\self-lint\packages" />
-      <recent name="D:\work\self-lint\docs" />
-      <recent name="D:\work\self-lint\docs\assets" />
+      <recent name="D:\work\self-lint\packages\yllon-lint" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\self-lint\packages\eslint-plugin\no-use-rules" />
       <recent name="D:\work\self-lint\docs\.vuepress\public" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="'fix' command" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/packages/yllon-lint/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/packages/yllon-lint" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/packages/yllon-lint/__tests__/cli.test.js" />
+      <test-names>
+        <test-name value="'fix' command" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.'fix' command" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,11 +249,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718723862359</updated>
-      <workItem from="1718723863411" duration="25552000" />
+      <workItem from="1718723863411" duration="85752000" />
+      <workItem from="1718961079534" duration="17043000" />
+      <workItem from="1718983428376" duration="22764000" />
+      <workItem from="1719068167556" duration="12805000" />
     </task>
+    <task id="LOCAL-00001" summary="项目初始化">
+      <option name="closed" value="true" />
+      <created>1718787049625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718787049625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
   </component>
 </project>

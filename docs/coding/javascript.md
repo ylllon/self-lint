@@ -2025,15 +2025,15 @@ author:
 - 2.7.4.【强制】禁止 `default import` 的名字跟文件内的其他 `export` 命名相同。`eslint`: [import/no-named-as-default](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md)
 
   ```javascript
-  // foo.js
+  // foo.javascript
   export default 'foo';
   export const bar = 'bar';
 
   // bad
-  import bar from './foo.js';
+  import bar from './foo.javascript';
 
   // good
-  import foo from './foo.js';
+  import foo from './foo.javascript';
   ```
 
 - 2.7.5.【强制】禁止引用自身。`eslint`: [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md)
@@ -2043,28 +2043,28 @@ author:
 - 2.7.7.【推荐】不要在 default export 上使用一个已导出的名称作为属性。`eslint`: [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md)
 
   ```javascript
-  // foo.js
+  // foo.javascript
   export default 'foo';
   export const bar = 'bar';
 
   // bad
-  import foo from './foo.js';
+  import foo from './foo.javascript';
   const bar = foo.bar; // or
   const { bar } = foo;
 
   // good
-  import foo, { bar } from './foo.js';
+  import foo, { bar } from './foo.javascript';
   ```
 
 - 2.7.8.【推荐】在模块导入之后保留一个空行。`eslint`: [import/newline-after-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md)
 
   ```javascript
   // bad
-  import foo from './foo.js';
+  import foo from './foo.javascript';
   const FOO = 'FOO'
 
   // good
-  import foo from './foo.js';
+  import foo from './foo.javascript';
 
   const FOO = 'FOO'
   ```
