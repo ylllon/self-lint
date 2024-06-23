@@ -1,6 +1,6 @@
 {
   "name": "yllon-stylelint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "css规范",
   "author": "yanglun <1254547493@qq.com>",
   "homepage": "https://github.com/ylllon/self-lint#readme",
@@ -24,7 +24,6 @@
     "type": "git",
     "url": "git+https://github.com/ylllon/self-lint.git"
   },
-
   "bugs": {
     "url": "https://github.com/ylllon/self-lint/issues"
   }

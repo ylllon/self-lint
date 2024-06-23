@@ -1,6 +1,6 @@
 {
   "name": "yllon-eslint-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "yllon自定义eslint插件",
   "author": "yanglun",
   "homepage": "https://github.com/ylllon/self-lint#readme",
