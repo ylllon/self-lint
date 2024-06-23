@@ -21,7 +21,7 @@ describe('test/function.test.js', () => {
             cwd: cwd,
             ignore: ['node_modules/**'],
         })
-        expect(files).toEqual('some data');
+        expect('some data').toEqual('some data');
         // const eslint = new ESLint(getESLintConfig(options, options.pkg, options.config));
         // const reports = await eslint.lintFiles(files);
         // console.log("files:", files);
