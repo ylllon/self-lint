@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="eslint  BUg修改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/scan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/scan.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/doEslint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/doEslint.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/utils/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/utils/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/test/function.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/test/function.test.js" afterDir="false" />
+    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="eslint  cli修复">
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,7 @@
       <workItem from="1718961079534" duration="17043000" />
       <workItem from="1718983428376" duration="22764000" />
       <workItem from="1719068167556" duration="16755000" />
-      <workItem from="1719135043011" duration="14239000" />
+      <workItem from="1719135043011" duration="14403000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <option name="closed" value="true" />
@@ -173,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719144805880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eslint  cli修复">
+      <option name="closed" value="true" />
+      <created>1719150734524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150734524</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +189,7 @@
     <MESSAGE value="增加stylelint、eslint、eslint-plugin、lint脚手架等功能" />
     <MESSAGE value="修改BUG" />
     <MESSAGE value="eslint  BUg修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="eslint  BUg修改" />
+    <MESSAGE value="eslint  cli修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="eslint  cli修复" />
   </component>
 </project>
