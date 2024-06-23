@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="文档修改">
-      <change afterPath="$PROJECT_DIR$/lerna-debug.log" afterDir="false" />
+    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="cli名称修改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lifecycle/init.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/test/testExamples/template/init/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/test/testExamples/template/init/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +133,7 @@
       <workItem from="1718961079534" duration="17043000" />
       <workItem from="1718983428376" duration="22764000" />
       <workItem from="1719068167556" duration="16755000" />
-      <workItem from="1719135043011" duration="20235000" />
+      <workItem from="1719135043011" duration="20450000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <option name="closed" value="true" />
@@ -225,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719156506270</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cli名称修改">
+      <option name="closed" value="true" />
+      <created>1719156836894</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719156836894</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +257,7 @@
     <MESSAGE value="yllon-lint 1.0.3修复-" />
     <MESSAGE value="yllon-lint 1.0.4修复-" />
     <MESSAGE value="文档修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="文档修改" />
+    <MESSAGE value="cli名称修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="cli名称修改" />
   </component>
 </project>
