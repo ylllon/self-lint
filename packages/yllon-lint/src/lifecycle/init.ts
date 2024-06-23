@@ -87,7 +87,7 @@ const chooseEnablePrettier = async (): Promise<boolean> => {
 export default async (options: InitOptions) => {
     const cwd = options.cwd || process.cwd(); // process是node的全局模块，作用比较直观,process.cwd()返回当前工作目录。如：调用node命令执行脚本时的目录。__dirname返回源代码所在的目录。
     const isTest = process.env.NODE_ENV === 'test';// 当前是否为测试环境
-    const checkVersionUpdate = options.checkVersionUpdate || false;// 是否检查并升级 yllon-lint 的版本
+    const checkVersionUpdate = options.checkVersionUpdate || false;// 是否检查并升级 yl-lint 的版本
     const disableNpmInstall = options.disableNpmInstall || false; // 是否禁用自动在初始化完成后安装依赖
     const config: Record<string, any> = {}; // 配置。根据配置，完成模板的自动生成
     const pkgPath = path.resolve(cwd, 'package.json');

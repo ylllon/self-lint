@@ -1,11 +1,11 @@
-# `yllon-lint`
+# `yl-lint`
 
 > TODO: description
 
 ## Usage
 
 ```
-const yllonLint = require('yllon-lint');
+const yllonLint = require('yl-lint');
 
 // TODO: DEMONSTRATE API
 ```

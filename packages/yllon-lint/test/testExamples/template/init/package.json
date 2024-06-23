@@ -1,7 +1,7 @@
 {
-  "name": "yllon-lint-init-test",
+  "name": "yl-lint-init-test",
   "version": "1.0.0",
-  "description": "yllon-lint init test",
+  "description": "yl-lint init test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

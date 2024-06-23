@@ -1,7 +1,7 @@
 {
-  "name": "yllon-lint",
+  "name": "yl-lint",
   "version": "1.0.3",
-  "description": "yllon-lint脚手架",
+  "description": "yl-lint脚手架",
   "author": "yanglun <1254547493@qq.com>",
   "homepage": "https://github.com/ylllon/self-lint#readme",
   "license": "ISC",
