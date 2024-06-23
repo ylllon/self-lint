@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="增加stylelint、eslint、eslint-plugin、lint脚手架等功能">
+    <list default="true" id="db15ed92-5cd2-4155-a66a-cf9d21716abb" name="Changes" comment="修改BUG">
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/yllon-lint/test/function.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/commitlint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/commitlint-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/__tests__/no-http-url.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/test/no-http-url.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/__tests__/no-use-reactive.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/test/no-use-reactive.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/__tests__/ts-interface-uppercase.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/test/ts-interface-uppercase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/markdownlint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/markdownlint-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/stylelint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stylelint-config/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/yllon-lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/doEslint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/yllon-lint/src/lints/eslint/doEslint.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Jest.'fix' command.executor": "Run",
+    "Jest.'function test.executor": "Run",
     "Node.js.ts-interface-uppercase.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,7 +74,7 @@
       <recent name="D:\work\self-lint\docs\.vuepress\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.'function test">
     <configuration name="'fix' command" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/packages/yllon-lint/node_modules/jest" />
@@ -90,8 +87,21 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="'function test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/packages/yllon-lint/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/packages/yllon-lint" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/packages/yllon-lint/test/function.test.js" />
+      <test-names>
+        <test-name value="'function test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.'function test" />
         <item itemvalue="Jest.'fix' command" />
       </list>
     </recent_temporary>
@@ -107,7 +117,8 @@
       <workItem from="1718723863411" duration="85752000" />
       <workItem from="1718961079534" duration="17043000" />
       <workItem from="1718983428376" duration="22764000" />
-      <workItem from="1719068167556" duration="14004000" />
+      <workItem from="1719068167556" duration="16755000" />
+      <workItem from="1719135043011" duration="8708000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <option name="closed" value="true" />
@@ -133,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719131725404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改BUG">
+      <option name="closed" value="true" />
+      <created>1719132134960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719132134960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +162,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="项目初始化" />
     <MESSAGE value="增加stylelint、eslint、eslint-plugin、lint脚手架等功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加stylelint、eslint、eslint-plugin、lint脚手架等功能" />
+    <MESSAGE value="修改BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改BUG" />
   </component>
 </project>

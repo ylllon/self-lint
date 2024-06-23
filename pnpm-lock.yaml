@@ -151,9 +151,6 @@ importers:
 
   packages/yllon-lint:
     dependencies:
-      '@babel/core':
-        specifier: ^7.16.0
-        version: 7.24.7
       '@babel/eslint-parser':
         specifier: ^7.16.3
         version: 7.24.7(@babel/core@7.24.7)(eslint@8.57.0)
@@ -272,18 +269,24 @@ importers:
         specifier: ^7.3.0
         version: 7.11.0(eslint@8.57.0)
       yllon-commitlint-config:
-        specifier: workspace:^
-        version: link:../commitlint-config
+        specifier: ^1.0.1
+        version: 1.0.1
       yllon-eslint-config:
-        specifier: workspace:^
-        version: link:../eslint-config
+        specifier: ^1.0.1
+        version: 1.0.1
       yllon-markdownlint-config:
-        specifier: workspace:^
-        version: link:../markdownlint-config
+        specifier: ^1.0.1
+        version: 1.0.1(markdownlint@0.25.1)
       yllon-stylelint-config:
-        specifier: workspace:^
-        version: link:../stylelint-config
+        specifier: ^1.0.1
+        version: 1.0.1
     devDependencies:
+      '@babel/core':
+        specifier: ^7.24.7
+        version: 7.24.7
+      '@babel/preset-env':
+        specifier: ^7.24.7
+        version: 7.24.7(@babel/core@7.24.7)
       '@types/command-exists':
         specifier: ^1.2.0
         version: 1.2.3
@@ -317,6 +320,9 @@ importers:
       '@types/text-table':
         specifier: ^0.2.2
         version: 0.2.5
+      babel-jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@babel/core@7.24.7)
       copyfiles:
         specifier: ^2.4.1
         version: 2.4.1
@@ -9343,6 +9349,20 @@ packages:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
 
+  yllon-commitlint-config@1.0.1:
+    resolution: {integrity: sha512-p2k5j+6M1xl2v3c+NXFHYhoTEtLYkP0rt8bgnuMatNMaijtkJFsIlXC5b0eoarfXsN1Niyzhli4v9rwqN1vBpQ==}
+
+  yllon-eslint-config@1.0.1:
+    resolution: {integrity: sha512-CKqLpxel40H/pmASnUJc1Xbk9Y8aqMwZX54xMOlhbapkOfN25brAickeEnjgxloPt1cmC4tPGxkEWF2PThi+OQ==}
+
+  yllon-markdownlint-config@1.0.1:
+    resolution: {integrity: sha512-AZOPVHdvbLpY8g0u++53Bb5ug6K/R2U9Oznv9nAAi4R+8e9aLcnv2SSqwz9nTkBpmI/SVP42XD6Q2BZdo+A6DQ==}
+    peerDependencies:
+      markdownlint: ^0.28.1
+
+  yllon-stylelint-config@1.0.1:
+    resolution: {integrity: sha512-Gb/247qnghYBcl+XUi5M2z8OAsdzP2ljMfdB828eiaelplfLmtYTkOAVQCe23b+tBfU+Q2av68EsMEh2OsGK8w==}
+
   yn@3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
@@ -18247,7 +18267,7 @@ snapshots:
       env-paths: 2.2.1
       exponential-backoff: 3.1.1
       glob: 7.2.3
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       make-fetch-happen: 10.2.1
       nopt: 6.0.0
       npmlog: 6.0.2
@@ -21494,7 +21514,7 @@ snapshots:
 
   write-file-atomic@2.4.3:
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       imurmurhash: 0.1.4
       signal-exit: 3.0.7
 
@@ -21523,7 +21543,7 @@ snapshots:
   write-json-file@3.2.0:
     dependencies:
       detect-indent: 5.0.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       make-dir: 2.1.0
       pify: 4.0.1
       sort-keys: 2.0.0
@@ -21628,6 +21648,18 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+
+  yllon-commitlint-config@1.0.1:
+    dependencies:
+      conventional-changelog-conventionalcommits: 4.6.3
+
+  yllon-eslint-config@1.0.1: {}
+
+  yllon-markdownlint-config@1.0.1(markdownlint@0.25.1):
+    dependencies:
+      markdownlint: 0.25.1
+
+  yllon-stylelint-config@1.0.1: {}
 
   yn@3.1.1: {}
 
