@@ -17,7 +17,7 @@ npm install stylelint-config-yllon stylelint stylelint-scss --save-dev
 
 ```json
 {
-  "extends": "yllon-stylelint-config"
+  "extends": "stylelint-config-yllon"
 }
 ```
 
@@ -25,6 +25,6 @@ npm install stylelint-config-yllon stylelint stylelint-scss --save-dev
 相对路径：
 ```json
 {
-  "extends": ["./node_modules/yllon-stylelint-config"]
+  "extends": ["./node_modules/stylelint-config-yllon"]
 }
 ```
